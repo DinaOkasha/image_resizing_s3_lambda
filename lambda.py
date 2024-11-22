@@ -39,7 +39,7 @@ def lambda_handler(event, context):
         return {"statusCode": 500, "body": "Error processing image."}
 
 
-
+#python3.9
 #s3 bucket names: 'image-upload-sourse-bucket' ,'image-upload-resized-bucket1'
 #iam policies fore the lambda role: 
 #AmazonS3FullAccess (for simplicity in this scenario).
